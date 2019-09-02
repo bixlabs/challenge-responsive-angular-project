@@ -41,15 +41,17 @@
                 <div class="row no-gutters">
                     <div class="col-sm-6">
                         <div id="my-tasks" class="card">
-                            <div class="tasks-header">
+                            <div class="tasks-header container">
                                 <div class="row">
-                                    <div class="task-title" i18n="@@myTasks">MIS TAREAS</div>
-                                    <div class="task-count">{{tasks.length}}
-                                        <ng-container i18n="@@tasks">Tareas</ng-container>
+                                    <div class="col-sm-12">
+                                        <div class="task-title" i18n="@@myTasks">MIS TAREAS</div>
+                                        <div class="task-count">{{tasks.length}}
+                                            <ng-container i18n="@@tasks">Tareas</ng-container>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <button class="btn btn-default btn-36" (click)="openTaskModal()">Nueva Tarea</button>
+                                    <div class="col-sm-12">
+                                        <button class="btn btn-default" (click)="openTaskModal()">Nueva Tarea</button>
+                                    </div>
                                 </div>
                             </div>
                             <div id="tasksScrollbar" class="items-wrapper scrollable with-padding"
