@@ -1,5 +1,4 @@
 @import "../../styles/variables";
-//@import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
 
 #home-wrapper {
   display: flex;
@@ -145,7 +144,7 @@
 
 .task-item {
   padding: 9.5px 13px 12.25px 13px;
-  height: 90px;
+  min-height: 90px;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
