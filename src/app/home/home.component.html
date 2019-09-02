@@ -19,10 +19,10 @@
                                 <li class="chat-user-list clearfix" *ngFor="let member of members">
                                     <a pg-view-trigger parentView="chat" animationType="push-parrallax" id="{{member.Id}}"
                                        (click)="displayUserDetails($event)">
-                                <span class="thumbnail-wrapper d32 circular bg-success">
-                                    <img width="34" height="34" alt=""
-                                         onError="this.src='https://via.placeholder.com/58'" class="col-top">
-                                </span>
+                                        <span class="thumbnail-wrapper d32 circular bg-success">
+                                            <img width="34" height="34" alt=""
+                                                 onError="this.src='https://via.placeholder.com/58'" class="col-top">
+                                        </span>
                                         <p class="p-l-10">
                                             <span class="text-master">{{member.Name}} {{member.LastName}}</span>
                                             <span class="block text-master hint-text fs-12">{{member.Mail}}</span>
