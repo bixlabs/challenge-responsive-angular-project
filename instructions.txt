@@ -1,0 +1,3 @@
+1. Refactor the Home Page in the angular app under the ./code folder to be more responsive. (create your own breakpoint values)
+2. When you are done, make sure you commit your code and publish it to a remote Git repository (Github, BitBucker or GitLab)
+3. Submit a link back to us with your repository
