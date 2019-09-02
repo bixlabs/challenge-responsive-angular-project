@@ -24,10 +24,9 @@
         ]
       },
       "styles": [
-        "assets/plugins/bootstrap/css/bootstrap.min.css",
+        "styles/variables.scss",
         "assets/plugins/font-awesome/css/font-awesome.min.css",
         "assets/plugins/codrops-stepsform/css/component.css",
-        "../node_modules/bootstrap/dist/css/boostrap-grid.css",
         "../node_modules/fullcalendar/dist/fullcalendar.css",
         "../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"
       ],
